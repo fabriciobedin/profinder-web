@@ -1,18 +1,18 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Container = styled.button`
-  background: #ec1f24;
+  background: var(--color-primary);
   height: 56px;
   border-radius: 10px;
   border: 0;
   padding: 0 16px;
-  color: #fff;
+  color: var(--color-secundary);
   width: 100%;
   font-weight: 500;
   margin-top: 16px;
   transition: background-color 0.2s;
+
   &:hover {
-    background: ${shade(0.2, '#ec1f24')};
+    background: var(--color-primary-dark-1);
   }
 `;

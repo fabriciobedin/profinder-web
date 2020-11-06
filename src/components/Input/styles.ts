@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #2e1f1f;
+  background: var(--color-background-light-1);
   border-radius: 10px;
-  border: 2px solid #2e1f1f;
+  border: 2px solid var(--color-background-light-1);
   padding: 16px;
-  color: #645959;
+  color: var(--color-background-light-3);
   width: 100%;
   display: flex;
   align-items: center;
@@ -16,9 +16,9 @@ export const Container = styled.div`
     flex: 1;
     background: transparent;
     border: 0;
-    color: #fff;
+    color: var(--color-secundary);
     &::placeholder {
-      color: #645959;
+      color: var(--color-background-light-3);
     }
   }
   svg {

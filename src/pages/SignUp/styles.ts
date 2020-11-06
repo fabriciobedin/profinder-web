@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 import signUpBackground from '../../assets/background_connections.png';
 
@@ -25,18 +24,18 @@ export const Content = styled.div`
     }
 
     a {
-      color: #f4ede8;
+      color: var(--color-secundary);
       display: block;
       margin-top: 24px;
       text-decoration: none;
       transition: color 0.2s;
       &:hover {
-        color: ${shade(0.2, '#f4ede8')};
+        color: var(--color-secundary-dark-1);
       }
     }
   }
   > a {
-    color: #f4ede8;
+    color: var(--color-secundary);
     display: block;
     margin-top: 24px;
     text-decoration: none;
@@ -47,7 +46,7 @@ export const Content = styled.div`
       margin-right: 16px;
     }
     &:hover {
-      color: ${shade(0.2, '#f4ede8')};
+      color: var(--color-secundary-dark-1);
     }
   }
 `;
