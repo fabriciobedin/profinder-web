@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import signInBackground from '../../assets/background_connections.png';
+import signInBackground from '../../assets/background.png';
 
 export const Container = styled.div`
   height: 100vh;

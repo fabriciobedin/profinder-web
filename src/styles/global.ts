@@ -2,15 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   :root {
-    --color-background: #210000;
-    --color-background-light-1: #2e1f1f;
-    --color-background-light-2: #393434;
-    --color-background-light-3: #645959;
-    --color-primary: #ec1f24;
-    --color-primary-dark-1: #ba1b23;
+    --color-background: #21222C;
+    --color-background-light-1: #282A36;
+    --color-background-light-2: #343746;
+    --color-background-light-3: #555664;
+    --color-primary: #FF9000;
+    --color-primary-dark-1: #D77400;
     --color-secundary: #fff;
     --color-secundary-dark-1: #ddd;
-    --color-error: #c00;
+    --color-error: #E90000;
     --color-success: #0c0;
     --color-warning: #fb0;
   }

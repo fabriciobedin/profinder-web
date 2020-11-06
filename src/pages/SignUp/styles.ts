@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import signUpBackground from '../../assets/background_connections.png';
+import signUpBackground from '../../assets/background.png';
 
 export const Container = styled.div`
   height: 100vh;
@@ -22,7 +22,7 @@ export const Content = styled.div`
     text-align: center;
 
     h1 {
-      margin-bottom: 24px;
+      margin-bottom: 30px;
     }
 
     a {
