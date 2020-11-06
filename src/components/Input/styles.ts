@@ -9,18 +9,22 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+
   & + div {
     margin-top: 8px;
   }
+
   input {
     flex: 1;
     background: transparent;
     border: 0;
     color: var(--color-secundary);
+
     &::placeholder {
       color: var(--color-background-light-3);
     }
   }
+
   svg {
     margin-right: 16px;
   }

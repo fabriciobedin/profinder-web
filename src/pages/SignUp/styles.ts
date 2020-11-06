@@ -15,10 +15,12 @@ export const Content = styled.div`
   place-content: center;
   width: 100%;
   max-width: 700px;
+
   form {
     margin: 80px 0;
     width: 340px;
     text-align: center;
+
     h1 {
       margin-bottom: 24px;
     }
@@ -29,11 +31,13 @@ export const Content = styled.div`
       margin-top: 24px;
       text-decoration: none;
       transition: color 0.2s;
+
       &:hover {
         color: var(--color-secundary-dark-1);
       }
     }
   }
+
   > a {
     color: var(--color-secundary);
     display: block;
@@ -42,9 +46,11 @@ export const Content = styled.div`
     transition: color 0.2s;
     display: flex;
     align-items: center;
+
     svg {
       margin-right: 16px;
     }
+
     &:hover {
       color: var(--color-secundary-dark-1);
     }
