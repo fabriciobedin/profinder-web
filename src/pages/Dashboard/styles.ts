@@ -14,7 +14,7 @@ export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
   > img {
-    height: 80px;
+    height: 40px;
   }
   button {
     margin-left: auto;
